@@ -1,4 +1,6 @@
 import Button from "../../Button/Button.jsx";
+import SocialButton from "../../Button/SocialButton.jsx";
+import {socialNavs} from "../../../utils/HeroConstants.jsx";
 import "./Hero.css"
 const Hero = () => {
   return (
@@ -6,9 +8,17 @@ const Hero = () => {
         <div className="headline">
             <h1 className="text-7xl mb-1">HI, I AM <br />MOHAMMAD ZAID</h1>
             <p className="mb-5">Full stack developer with a focus on web applications</p>
-            <div className="headline-navs">
+            <div className="headline-navs flex items-center gap-4">
               <Button text={"CONTACT ME"}/>
-              
+
+              {
+                socialNavs.map((socialNav, idx) => (
+                  <SocialButton key={idx} link={socialNav.link}>
+                    {socialNav.icon}
+                  </SocialButton>
+                ))
+              }
+
             </div>
         </div>
 
