@@ -1,0 +1,12 @@
+.social-btn {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    background-color: var(--tertiary-color);
+    border-radius: 50%;
+    transition: all ease .2s;
+}
+
+.social-btn:hover {
+    color: var(--primary-color);
+    background-color: var(--quaternary-color);
+}
