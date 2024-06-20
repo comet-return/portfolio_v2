@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-color: #1B262C;
+  --text-color: #ffffffe5;
+  --secondary-color: #0F4C75;
+  --tertiary-color: #3282B8;
+  --quaternary-color: #BBE1FA;
+}
+
 *{
   margin : 0px;
   padding : 0px;
@@ -15,6 +23,8 @@ html, body {
 
 body {
   overflow-x: hidden;
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 a,button {
