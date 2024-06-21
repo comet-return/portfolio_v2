@@ -6,10 +6,10 @@ import { HeroAnimation } from "../../../utils/Animation.jsx";
 const Hero = () => {
   HeroAnimation();
   return (
-    <section className="hero h-full w-full flex flex-col md:flex-row items-center justify-between md:p-20 p-16 md:px-44">
+    <section className="hero h-full w-full flex flex-col md:flex-row items-center justify-between">
         <div className="headline">
-            <h1 className="text-7xl text-center sm:text-start">HI, I AM</h1>
-            <h1 className="text-7xl mb-1 text-center sm:text-start">MOHAMMAD ZAID</h1>
+            <h1>HI, I AM</h1>
+            <h1 className="mb-1">MOHAMMAD ZAID</h1>
             <p className="mb-5 text-center sm:text-start">Full stack developer with a focus on web applications</p>
             <div className="headline-navs flex items-center gap-4">
               <Button text={"CONTACT ME"}/>
