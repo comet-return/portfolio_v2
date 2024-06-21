@@ -1,0 +1,6 @@
+.about-description a {
+  color: var(--secondary-color);
+}
+.about-description a:hover {
+  font-weight: 600;
+}
