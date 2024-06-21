@@ -1,0 +1,22 @@
+.contact-left h6 a {
+    border-bottom: 1px solid var(--secondary-color);
+    padding-bottom: .15rem;
+}
+.contact-left h6 a:hover {
+    color: var(--secondary-color);
+}
+
+.contact-right form input, .contact-right form textarea {
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    padding: .75rem 1rem;
+    width: 90%;
+}
+
+.contact-socials a{
+    color: var(--secondary-color);
+    transition: all ease 0.2s;
+}
+.contact-socials a:hover {
+    scale: 1.2;
+}

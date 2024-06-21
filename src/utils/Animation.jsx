@@ -89,3 +89,29 @@ export const AboutAnimation = () => {
     );
   });
 };
+
+export const ContactAnimation = () => {
+  useGSAP(() => {
+    var tl2 = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".contact",
+        start: "top center",
+        end: "bottom center",
+        toggleActions: "play pause resume reset",
+      },
+    });
+    tl2.from(".contact > .contact-left > *", {
+      opacity: 0,
+      x: -100,
+      ease: "power3.out",
+      stagger: 0.2,
+    }, "anim2");
+    tl2.from(
+      ".contact > .contact-right > form > *", {
+        opacity: 0,
+        x: 100,
+        ease: "power3.out",
+        stagger: 0.2,
+    }, "anim2");
+  });
+}
