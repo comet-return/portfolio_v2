@@ -27,7 +27,7 @@ export const ProjectAnimation = () => {
     var timeline = gsap.timeline({
       scrollTrigger: {
         trigger: ".projects-section",
-        scroller: "body",
+        scroller: "#root",
         start: "top 75%",
         end: "top -35%",
         scrub: 2,
@@ -67,6 +67,7 @@ export const AboutAnimation = () => {
     var tl = gsap.timeline({
       scrollTrigger: {
         trigger: ".about",
+        scroller: "#root",
         start: "top center",
         end: "bottom center",
         toggleActions: "play pause resume reset",
@@ -95,6 +96,7 @@ export const ContactAnimation = () => {
     var tl2 = gsap.timeline({
       scrollTrigger: {
         trigger: ".contact",
+        scroller: "#root",
         start: "top center",
         end: "bottom center",
         toggleActions: "play pause resume reset",
