@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --primary-color: #1B262C;
+  --primary-color: #000;
   --text-color: #ffffffe5;
-  --secondary-color: #0F4C75;
-  --tertiary-color: #3282B8;
-  --quaternary-color: #BBE1FA;
+  --secondary-color: #1071b2;
+  --tertiary-color: #232526;
+  --quaternary-color: #51b4f6;
 }
 
 *{
@@ -16,21 +18,45 @@
   box-sizing: border-box;
 }
 
-html, body {
+html, body, #root {
   height: 100%;
   width: 100%;
 }
 
-body {
+body, #root {
   overflow-x: hidden;
   background-color: var(--primary-color);
   color: var(--text-color);
+  font-family: "Manrope", sans-serif;
+  scroll-behavior: smooth;
 }
 
-a,button {
+a,button, input, textarea{
   all: unset;
   cursor: pointer;
 }
+textarea {
+  resize: none;
+}
 li {
   list-style: none;
+}
+section {
+  @apply min-h-screen py-16 px-8 sm:p-20 lg:px-44;
+}
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  @apply text-6xl text-center sm:text-start;
+}
+
+p {
+  opacity: .75;
+}
+
+hr {
+  opacity: .25;
+}
+
+.wrapper {
+  /* width: 99dvw; */
 }
