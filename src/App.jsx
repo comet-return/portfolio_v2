@@ -1,12 +1,12 @@
 import Header from "./components/Header/Header";
-import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
+import { Outlet } from "react-router-dom";
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* <Header/> */}
+      <Header/>
       <main className="wrapper flex-grow">
-        <Home />
+        <Outlet />
       </main>
       <Footer />
     </div>
