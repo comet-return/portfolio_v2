@@ -3,9 +3,9 @@ import Footer from "./components/Footer/Footer";
 import { Outlet } from "react-router-dom";
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="wrapper flex flex-col min-h-screen relative">
       <Header/>
-      <main className="wrapper flex-grow">
+      <main className="flex-grow">
         <Outlet />
       </main>
       <Footer />

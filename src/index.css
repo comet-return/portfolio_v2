@@ -7,9 +7,9 @@
 :root {
   --primary-color: #000;
   --text-color: #ffffffe5;
-  --secondary-color: #1071b2;
-  --tertiary-color: #232526;
-  --quaternary-color: #51b4f6;
+  --secondary-color: #D3E97A;
+  --tertiary-color: #1b1c19;
+  --quaternary-color: #c3f00e;
 }
 
 *{
@@ -17,12 +17,10 @@
   padding : 0px;
   box-sizing: border-box;
 }
-
 html, body, #root {
   height: 100%;
   width: 100%;
 }
-
 body, #root {
   overflow-x: hidden;
   background-color: var(--primary-color);
@@ -30,9 +28,10 @@ body, #root {
   font-family: "Manrope", sans-serif;
   scroll-behavior: smooth;
 }
-
 a,button, input, textarea{
   all: unset;
+}
+a,button {
   cursor: pointer;
 }
 textarea {
@@ -48,15 +47,9 @@ h1 {
   font-family: "Bebas Neue", sans-serif;
   @apply text-6xl text-center sm:text-start;
 }
-
 p {
   opacity: .75;
 }
-
 hr {
   opacity: .25;
-}
-
-.wrapper {
-  /* width: 99dvw; */
 }
