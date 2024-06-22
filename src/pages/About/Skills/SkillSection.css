@@ -1,0 +1,10 @@
+.all-skills > div {
+    cursor: pointer;
+    border: 1px solid #ffffff42;
+    transition: all ease .3s;
+}
+
+.all-skills > div:hover {
+    opacity: 1;
+    background-color: var(--tertiary-color);
+}
