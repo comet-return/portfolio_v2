@@ -4,10 +4,10 @@ import "./SkillSection.css"
 
 const Skills = () => {
   return (
-    <section id="skills" className="min-h-0 pt-0 flex md:flex-row flex-col md:justify-between justify-center">
+    <section id="skills" className="min-h-0 flex md:flex-row flex-col md:justify-between justify-center">
         <h1>My Skills</h1>
         <div className="skill-description md:w-1/2 w-full">
-            <p>I am always looking to add more skills.Morbi egestas neque eu blandit fermentum. Nulla ac lobortis ligula. Pellentesque ac ex at purus faucibus tristique ut et dolor. </p>
+            <p>I am constantly seeking to expand my skill set. I thrive in dynamic environments and am eager to take on new challenges. My ability to adapt and learn quickly ensures that I am always up-to-date with the latest trends and techniques.</p>
 
             <div className="all-skills w-full pt-7 flex flex-wrap gap-3">
                 {

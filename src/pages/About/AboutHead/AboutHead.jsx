@@ -4,7 +4,7 @@ import { socialNavs } from "../../../utils/Constants.jsx";
 
 const AboutHead = () => {
   return (
-    <section>
+    <section id="about-head" className="pb-0">
       <div className="py-20 flex md:flex-row flex-col md:justify-between justify-center">
         <h1 className="text-8xl text-start">About Me</h1>
         <div className="about-right md:w-1/2 w-full py-5">
