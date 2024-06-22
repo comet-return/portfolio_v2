@@ -1,6 +1,5 @@
-import Button from "../../../components/Button/Button.jsx";
 import SocialButton from "../../../components/Button/SocialButton.jsx";
-import {socialNavs} from "../../../utils/HeroConstants.jsx";
+import {socialNavs} from "../../../utils/SocialConstants.jsx";
 import { HeroAnimation } from "../../../utils/Animation.jsx";
 import "./Hero.css";
 const Hero = () => {
