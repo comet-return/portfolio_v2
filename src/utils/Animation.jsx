@@ -90,7 +90,6 @@ export const AboutAnimation = () => {
         scroller: "#root",
         start: "top center",
         end: "bottom center",
-        toggleActions: "play pause resume reset",
       },
     });
     tl.from(".about > h1", {
