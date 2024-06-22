@@ -1,6 +1,13 @@
+import AboutHead from "./AboutHead/AboutHead.jsx";
+import Contact from "../../components/Contact/Contact.jsx";
+
 const About = () => {
   return (
-    <section>About</section>
+    <>
+      <AboutHead />
+      <hr />
+      <Contact />
+    </>
   )
 }
 
