@@ -11,7 +11,7 @@ const Header = () => {
     dropdown.classList.toggle("hidden");
   };
   return (
-    <nav className="flex md:justify-between justify-around items-center px-10 py-4">
+    <nav className="flex justify-between items-center px-10 py-4">
       <div className="logo">
         <h1 className="text-3xl">Mohammad <span>Zaid</span></h1>
       </div>

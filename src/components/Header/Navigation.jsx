@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom"
+
 const Navigation = ({nav}) => {
   return (
-    <li className="navigations"><a href={nav.link}>{nav.text}</a></li>
+    <li className="navigations"><Link to={nav.link}>{nav.text}</Link></li>
   )
 }
 
