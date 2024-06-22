@@ -1,8 +1,10 @@
 import { skills } from "../../../utils/Constants";
 import Skill from "./Skill";
-import "./SkillSection.css"
+import "./SkillSection.css";
+import { SkillsAnimation } from "../../../utils/Animation";
 
 const Skills = () => {
+  SkillsAnimation();
   return (
     <section id="skills" className="min-h-0 flex md:flex-row flex-col md:justify-between justify-center">
         <h1>My Skills</h1>

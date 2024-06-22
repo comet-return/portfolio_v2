@@ -1,13 +1,15 @@
 import "./AboutHead.css";
 import SocialButton from "../../../components/Button/SocialButton.jsx";
 import { socialNavs } from "../../../utils/Constants.jsx";
+import { AboutHeadAnimation } from "../../../utils/Animation.jsx";
 
 const AboutHead = () => {
+  AboutHeadAnimation();
   return (
     <section id="about-head" className="pb-0">
-      <div className="py-20 flex md:flex-row flex-col md:justify-between justify-center">
+      <div id="about-head-inner" className="py-20 flex md:flex-row flex-col md:justify-between justify-center">
         <h1 className="text-8xl text-start">About Me</h1>
-        <div className="about-right md:w-1/2 w-full py-5">
+        <div className="about-right md:w-1/2 w-full pb-5">
           <h2 className="text-3xl">I am a Full Stack Developer.</h2>
           <h2 className="text-3xl mb-3">
             Has a software engineering background.
