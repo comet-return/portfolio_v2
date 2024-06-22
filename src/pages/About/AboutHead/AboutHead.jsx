@@ -1,6 +1,6 @@
 import "./AboutHead.css";
 import SocialButton from "../../../components/Button/SocialButton.jsx";
-import { socialNavs } from "../../../utils/SocialConstants.jsx";
+import { socialNavs } from "../../../utils/Constants.jsx";
 
 const AboutHead = () => {
   return (
