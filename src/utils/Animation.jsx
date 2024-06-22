@@ -4,6 +4,26 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+export const HeaderAnimation = () => {
+  useGSAP(() => {
+    let dropdownTimeline = gsap.timeline();
+    dropdownTimeline.from("nav", {
+        duration: 1,
+        opacity: 0,
+        y: -100,
+        ease: "power3.out",
+        touchAction: "play pause resume reset",
+    })
+    dropdownTimeline.from("nav > .navs", {
+        duration: 1,
+        opacity: 0,
+        x: 100,
+        ease: "power3.out",
+        touchAction: "play pause resume reset",
+    }, "-=.5")
+  })
+}
+
 export const HeroAnimation = () => {
   useGSAP(() => {
     gsap.from(".headline > *", {
