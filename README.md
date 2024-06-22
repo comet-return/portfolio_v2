@@ -1,8 +1,14 @@
-# React + Vite
+# Personal Portfolio
+Welcome to my personal portfolio repository! This project showcases my work, skills, and projects. It is designed to provide a comprehensive overview of my professional journey and accomplishments.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+This portfolio is a compilation of my professional work, including projects I've worked on, skills I've acquired, and my professional background. It serves as an online resume to demonstrate my capabilities and experiences.
 
-Currently, two official plugins are available:
+## Features
+- Home: An introduction to who I am and what I do.
+- About: A detailed description of my background, skills, and experiences.
+- Projects: A showcase of my projects with descriptions, technologies used, and links to the live versions or repositories.
+- Contact: A form to get in touch with me directly from the website.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live link
+https://zaid-khan.vercel.app/
