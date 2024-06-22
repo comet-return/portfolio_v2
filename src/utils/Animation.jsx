@@ -119,7 +119,6 @@ export const ContactAnimation = () => {
         scroller: "#root",
         start: "top center",
         end: "bottom center",
-        toggleActions: "play pause resume reset",
       },
     });
     tl2.from(".contact > .contact-left > *", {
