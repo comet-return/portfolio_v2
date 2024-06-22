@@ -21,7 +21,7 @@ const AboutHead = () => {
             performance.
           </p>
           <div className="flex items-center justify-start gap-4">
-            <a href="" className="button">Download Resume</a>
+            <a href="../../../assets/zaid-resume.pdf" download={"zaid-resume.pdf"} className="button">Download Resume</a>
             {
                 socialNavs.map((socialNav, idx) => (
                   <SocialButton key={idx} link={socialNav.link}>
