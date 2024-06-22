@@ -1,6 +1,6 @@
 import "./Header.css";
 import Navigation from "./Navigation";
-import { navigations } from "../../utils/HeaderConstants";
+import { navigations } from "../../utils/Constants";
 import { HeaderAnimation } from "../../utils/Animation";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 

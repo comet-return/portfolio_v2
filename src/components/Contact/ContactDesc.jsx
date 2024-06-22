@@ -1,4 +1,4 @@
-import { socialHandles } from "../../utils/ContactConstants";
+import { socialHandles } from "../../utils/Constants";
 
 const ContactDesc = () => {
   return (
