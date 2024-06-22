@@ -25,7 +25,7 @@ const Hero = () => {
             </div>
         </div>
 
-        <div className="hero-img bg-slate-700">
+        <div className="hero-img">
           <img src="https://images-platform.99static.com/ky8wEq_DEdvfN0l2lmUSfuVYL0g=/0x0:2000x2000/500x500/top/smart/99designs-contests-attachments/107/107446/attachment_107446690" alt="My_Image" />
         </div>
 
