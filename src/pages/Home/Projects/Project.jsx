@@ -15,8 +15,8 @@ const Project = ({img = "", name="Project", description="", links = {}}) => {
         <hr />
       </div>
       <div className="project-links flex gap-4 sm:text-sm text-xs ps-1">
-        <a href={links.live}>LIVE DEMO</a>
-        <a href={links.github}>SEE ON GITHUB</a>
+        <a href={links.live} target="_blank">LIVE DEMO</a>
+        <a href={links.github} target="_blank">SEE ON GITHUB</a>
       </div>
     </div>
   );

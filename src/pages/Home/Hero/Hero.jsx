@@ -6,7 +6,7 @@ import "./Hero.css";
 const Hero = () => {
   HeroAnimation();
   return (
-    <section className="hero h-full w-full flex flex-col md:flex-row items-center md:justify-between justify-center gap-10">
+    <section id="hero" className="hero h-full w-full flex flex-col md:flex-row items-center md:justify-between justify-center gap-10">
         <div className="headline">
             <h1 className="">HI, I AM</h1>
             <h1 className="mb-5">MOHAMMAD <span className="name-animate">ZAID</span></h1>

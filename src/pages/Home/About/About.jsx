@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const About = () => {
   AboutAnimation();
   return (
-    <section className="about flex md:flex-row flex-col md:justify-between justify-center">
+    <section id="about" className="about flex md:flex-row flex-col md:justify-between justify-center">
       <h1 className="text-8xl py-5">About Me</h1>
       <div className="about-description md:w-1/2 w-full py-5">
         <h2 className="text-3xl">I am a Full Stack Developer.</h2>

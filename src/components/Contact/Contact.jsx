@@ -5,7 +5,7 @@ import { ContactAnimation } from "../../utils/Animation";
 const Contact = () => {
   ContactAnimation();
   return (
-    <section className="contact flex justify-center md:flex-row flex-col gap-10">
+    <section id="contact" className="contact flex justify-center md:flex-row flex-col gap-10">
         <ContactDesc />
         <ContactForm />
     </section>
