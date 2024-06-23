@@ -4,7 +4,7 @@ import { ProjectAnimation } from "../../../utils/Animation";
 import { projects } from "../../../utils/Constants";
 
 const Projects = () => {
-  // ProjectAnimation();
+  ProjectAnimation(); 
   return (
     <section id="projects" className="projects-section">
       <h1>Featured Projects</h1>

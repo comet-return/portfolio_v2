@@ -59,26 +59,12 @@ export const ProjectAnimation = () => {
       ease: "power3.out",
       stagger: 0.2,
     });
-    timeline.from(
-      ".projects-container > :nth-child(odd)",
-      {
-        opacity: 0,
-        x: -100,
-        ease: "power3.out",
-        stagger: 0.2,
-      },
-      "anim"
-    );
-    timeline.from(
-      ".projects-container > :nth-child(even)",
-      {
-        opacity: 0,
-        x: 100,
-        ease: "power3.out",
-        stagger: 0.2,
-      },
-      "anim"
-    );
+    timeline.from(".projects-container", {
+      opacity: 0,
+      scale: .5,
+      ease: "sine.out",
+    }, "-=.7");
+
   });
 };
 
