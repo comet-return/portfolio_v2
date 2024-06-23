@@ -1,20 +1,22 @@
+import { truncateString } from "../../../utils/truncateString";
+
 const Project = ({img = "", name="Project", description="", links = {}}) => {
   return (
-    <div className="project bg-slate-00 p-5 rounded-2xl space-y-3">
+    <div className="project p-3 rounded-xl">
       <div className="project-img">
         <img
-          src="https://projectimg.com/hs-fs/hubfs/TI%20-%20MED%20ED%20Platform.jpg?width=750&height=459&name=TI%20-%20MED%20ED%20Platform.jpg"
-          alt="project-1"
-          className="rounded-lg object-cover overflow-hidden"
+          src={img}
+          alt="project"
+          className="object-cover overflow-hidden rounded-md"
         />
       </div>
-      <div className="project-info ps-1">
-        <h2 className="sm:text-3xl text-xl mb-2">{name}</h2>
+      <div className="project-info px-1">
+        <h2 className="sm:text-3xl text-xl py-2">{name}</h2>
         <hr />
-        <p className="py-2">{description} dfhidshfiduhfiuh</p>
+        <p className="py-3 text-sm opacity-60">{truncateString(description)}</p>
         <hr />
       </div>
-      <div className="project-links flex gap-4 sm:text-sm text-xs ps-1">
+      <div className="project-links flex gap-x-5 sm:text-sm text-xs px-1 pb-2 pt-3">
         <a href={links.live} target="_blank">LIVE DEMO</a>
         <a href={links.github} target="_blank">SEE ON GITHUB</a>
       </div>
