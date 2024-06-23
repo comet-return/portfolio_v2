@@ -11,7 +11,7 @@ const Project = ({img = "", name="Project", description="", links = {}}) => {
         />
       </div>
       <div className="project-info px-1">
-        <h2 className="sm:text-3xl text-xl py-2">{name}</h2>
+        <h2 className="sm:text-2xl text-xl py-3 font-semibold">{name}</h2>
         <hr />
         <p className="py-3 text-sm opacity-60">{truncateString(description)}</p>
         <hr />

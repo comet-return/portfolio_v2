@@ -44,7 +44,7 @@ export const projects = [
             github: "https://github.com/MZaidKhan2413/Brand-website",
             live: "https://stackdoors.netlify.app/"
         },
-        img: "/project-images/Stackdoors/SD-community.png"
+        img: "/project-images/stackdoors.png"
     },
     {
         name: "Spotify Clone: Frontend",
@@ -53,7 +53,7 @@ export const projects = [
             github: "https://github.com/MZaidKhan2413/Spotify-clone",
             live: "https://spotify-clone-by-zaid.netlify.app/"
         },
-        img: "/project-images/Spotify-clone/spotify-home.png"
+        img: "/project-images/spotify.png"
     },
     {
         name: "Sociogram: Full stack",
@@ -62,6 +62,15 @@ export const projects = [
             github: "https://github.com/MZaidKhan2413/Sociogram",
             live: "https://sociogram-n99s.onrender.com/",
         },
-        img: "/project-images/Sociogram/Sociogram-profle.png",
+        img: "/project-images/sociogram.png",
     },
+    {
+        name: "Calculator",
+        description: "This is a simple yet powerful demonstration of React's capabilities in building dynamic user interfaces. With this calculator, users can perform basic arithmetic operations such as addition, subtraction, multiplication, and division effortlessly.",
+        links: {
+            github: "https://github.com/MZaidKhan2413/Calculator-using-React.js",
+            live: "https://calculator-by-zaid.netlify.app/"
+        },
+        img: "/project-images/calculator.png",
+    }
 ]
