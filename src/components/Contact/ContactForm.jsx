@@ -1,5 +1,6 @@
 import Button from "../Button/Button";
 import { useState } from "react";
+import axios from "axios";
 
 const ContactForm = () => {
   const [formValues, setFormValues] = useState({
@@ -14,9 +15,16 @@ const ContactForm = () => {
       [e.target.id]: e.target.value,
     });
   };
-  const handleOnSubmit = (e) => {
+  const handleOnSubmit = async(e) => {
     e.preventDefault();
-    console.log(formValues);
+    try {
+      const response = await axios.post("https://contact-messages.vercel.app/api/v1/contact", {... formValues});
+      console.log(response);
+      alert("Form submitted successfully");
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("An error occurred while submitting the form");
+    }
     setFormValues({
       name: "",
       email: "",
