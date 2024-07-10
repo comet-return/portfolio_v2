@@ -38,7 +38,7 @@ export const skills = [
 
 export const projects = [
     {
-        name: "Stackdoors: Fontend",
+        name: "Stackdoors: Frontend",
         description: "StackDoors, a brand website built using React. This project was created as part of the Career Acceleration Program at Omniversity. It features conditional routing, rendering, and engaging animations to provide a seamless and interactive user experience.",
         links: {
             github: "https://github.com/MZaidKhan2413/Brand-website",
