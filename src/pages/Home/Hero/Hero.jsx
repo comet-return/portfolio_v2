@@ -11,7 +11,7 @@ const Hero = () => {
             <h1 className="mb-5">MOHAMMAD <span className="name-animate">ZAID</span></h1>
             <p className="mb-5 text-center sm:text-start">Full stack developer with a focus on web applications. <br /> Enthusiasm in learning new technologies.</p>
             <div className="headline-navs flex items-center md:justify-start justify-center gap-4">
-              <a href="../../../assets/zaid -resume.pdf" download="zaid-resume.pdf" className="button">Download Resume</a>
+              <a href="/assets/zaid-resume.pdf" download="zaid-resume.pdf" className="button">Download Resume</a>
 
               {
                 socialNavs.map((socialNav, idx) => (
