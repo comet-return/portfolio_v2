@@ -59,3 +59,30 @@
     opacity: 0;
   }
 }
+
+.hero-img {
+  height: 30rem;
+  transition: all ease 0.3s;
+}
+.hero-img::after {
+  content: "A very warm welcome from me.";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: .5rem;
+  background-color: var(--tertiary-color);
+  transition: all ease .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img:hover.hero-img::after {
+  left: 0;
+  top: 0;
+  z-index: 1;
+  opacity: .9;
+}
