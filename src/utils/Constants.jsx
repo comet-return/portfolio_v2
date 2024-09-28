@@ -38,6 +38,15 @@ export const skills = [
 
 export const projects = [
     {
+        name: "Chat App: Full Stack",
+        description: "The Chat-App is a full-stack, real-time messaging application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and powered by Socket.IO to enable instant communication between users. This project is designed to provide a seamless, user-friendly interface with robust real-time capabilities, making it a powerful solution for modern chat applications.",
+        links: {
+            github: "https://github.com/MZaidKhan2413/chat-app",
+            live: "https://vibey-chat-app.vercel.app/"
+        },
+        img: "/project-images/chat-app.png"
+    },
+    {
         name: "Stackdoors: Frontend",
         description: "StackDoors, a brand website built using React. This project was created as part of the Career Acceleration Program at Omniversity. It features conditional routing, rendering, and engaging animations to provide a seamless and interactive user experience.",
         links: {
