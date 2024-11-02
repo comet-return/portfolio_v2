@@ -1,6 +1,11 @@
 import { truncateString } from "../../../utils/truncateString";
 
-const Project = ({img = "", name="Project", description="", links = {}}) => {
+const Project = ({
+  img = "",
+  name = "Project",
+  description = "",
+  links = {},
+}) => {
   return (
     <div className="project p-3 rounded-xl">
       <div className="project-img">
@@ -17,8 +22,15 @@ const Project = ({img = "", name="Project", description="", links = {}}) => {
         <hr />
       </div>
       <div className="project-links flex gap-x-5 sm:text-sm text-xs px-1 pb-2 pt-3">
-        <a href={links.live} target="_blank">LIVE DEMO</a>
-        <a href={links.github} target="_blank">SEE ON GITHUB</a>
+        <a href={links.live} target="_blank">
+          LIVE DEMO
+        </a>
+        <a href={links.github} target="_blank">
+          SEE ON GITHUB
+        </a>
+        <a href={links?.info} target="_blank">
+          INFO
+        </a>
       </div>
     </div>
   );
