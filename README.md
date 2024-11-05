@@ -11,4 +11,3 @@ This portfolio is a compilation of my professional work, including projects I've
 - Contact: A form to get in touch with me directly from the website.
 
 ## Live link
-https://zaid-khan.vercel.app/
